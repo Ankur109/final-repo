@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<Title>Liverpool Fc Official Website</Title>
+	<style type="text/css">
+   .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#4B0082;
+  color:#E0202C;
+  text-align:center;
+} 
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E0202C;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+  </style>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "css/styles.css" rel = "stylesheet">
+</head>
+
+
+<body>
+<div class="main">
+<div class="container">
+  <h2>Directory</h2>
+    <a href="index.html"><button type="button" class="btn">Home</button></a>
+  <a href="liverpool-kits.html"><button type="button" class="btn btn-danger">2018/19 Kit</button></a>
+  <a href="history.html"><button type="button" class="btn btn-danger">History</button></a>
+  <a href="success.html"><button type="button" class="btn btn-danger">Success</button></a>
+  <a href="predictions.html"><button type="button" class="btn btn-danger">Predictions</button></a>
+  <li><a data-toggle="modal" data-target="#contactusModal"><span class="glyphicon glyphicon-log-in"></span><b> Contact Us</b></a></li>
+                </ul>
+<div id="contactusModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">×</button>
+<h4 class="modal-title">Contact Us</h4>
+</div>
+<div class="modal-body">
+
+        <form role="form" method="post" id="reused_form" >
+        <p>
+            Send Us Any Of Your Feedback, Comments, Questions or Suggestions You Have By Filling Out The Form Below!.
+        </p>
+
+        <div class="form-group">
+            <label for="name">
+                Name:</label>
+            <input type="text" class="form-control"
+            id="name" name="name"   required maxlength="50">
+
+        </div>
+        <div class="form-group">
+            <label for="email">
+                Email:</label>
+            <input type="email" class="form-control"
+            id="email" name="email" required maxlength="50">
+        </div>
+        <div class="form-group">
+            <label for="name">
+                Message:</label>
+            <textarea class="form-control" type="textarea" name="message"
+            id="message" placeholder="Your Message Here"
+            maxlength="6000" rows="7"></textarea>
+        </div>
+
+
+
+
+
+        <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send</button>
+
+    </form>
+    <div id="success_message" style="width:100%; height:100%; display:none; ">
+        <h3>Sent your message successfully!</h3>
+    </div>
+    <div id="error_message"
+    style="width:100%; height:100%; display:none; ">
+        <h3>Error</h3>
+        Sorry there was an error sending your form.
+
+    </div>
+</div>
+
+</div>
+
+ </div>
+</div>
+  
+</div>
+<div class="sidenav">
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html"></a>
+  <a href="history.html">History</a>
+  <a href="predictions.html">Predictions</a>
+</div>
+
+
+
+
+<div class="container">
+  <div class="jumbotron">
+  
+   <Font size ="+5">
+   <h1>History</h1>
+   <img src = "old-png.png" width="1000">
+ </Font>
+ <p>On March 15, 1892, John Houlding famously broke from the board of Everton to form a new club - Liverpool FC. The club was formally recognised by the Board of Trade on June 3, making it their official birthday. On September 3rd, 1892, Liverpool play their first competitive match and win 8-0. On 1901, they win their first Premier League Championship. Spion Kop (Liverpool's first stadium) was one of the loudest stadiums in England and opposition players did not prefer to play there. But in 1928, they enlarged it to 425 feet by 131 feet and hold over 30,000 stnding spectators.</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+<div class="footer">
+    <font size="+40" color="#E0202C">
+  Liverpool FC
+  
+  </font>
+  </div>
+</html>
